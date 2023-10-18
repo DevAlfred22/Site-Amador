@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+body{
+    overflow: hidden;
+}
+
+
+main{
+    display: inline-grid;
+    position: absolute;
+    top: 19%;
+    left: 30%;
+    background-color: rgb(19, 162, 194);
+    padding: 4px;
+    border-radius: 5%;
+    text-align: center;
+
+    
+    
+   
+}
+main>p{
+   font-size: large;
+}
+
+img.imagem{
+    position: absolute;
+    top: 1%;
+    left:106%;
+}
+img.imagem2{
+    position: absolute;
+    top: 58%;
+    left: 106%;
+    height: 136px;
+    padding: 4px;
+}
+
+
+
+section{
+    display: inline;
+    position: relative;
+    top: 37px;
+    left: 60px;
+ 
+}
+
+
+article{
+    display: block;
+    position: relative;
+    top: 0%;
+    left: 40px;
+}
+
+button{
+    position: absolute;
+    top: 464px;
+    left: 414px;
+
+    width: 90px;
+    height: 42px;
+
+    background-color: goldenrod;
+    color:aquamarine ;
+
+    border-radius: 10%;
+
+}
+
+button>a{
+    
+    text-decoration: none;
+}
+
+*{
+    padding: 2px;
+}
